@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    int d, w, r;
+    scanf("%d", &d);
+    w = d / 7;
+    r = d % 7;
+    printf("weeks=%d\ndays=%d", w, r);
+
+    return 0;
+}
